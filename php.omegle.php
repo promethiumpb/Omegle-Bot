@@ -12,7 +12,7 @@ public $connected=false; // Is a stranger connected? This variable might come in
 public $newMessage=false; // Has there been a new message?
 public $recentMsg=null; // Contents of last message.
 
-public $name="Omegle Bot"; // Name of your bot. IMPORTANT
+public $name="OmegleBot"; // Name of your bot. IMPORTANT
 
 public $idle_timeout=false; // Do we want to disconnect if Stranger isn't talking?
 public $idle_seconds=0; // How long to wait if stranger stops talking.  For use with $idle_timeout.
